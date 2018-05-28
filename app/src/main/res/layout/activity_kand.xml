@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sumanbhaiji.org.mereraghunath_.KandActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/tamptra"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_marginTop="140dp"
+        android:layout_alignParentRight="true"
+        android:padding="10px"
+        android:id="@+id/pagenoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page No: 10"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:src="@mipmap/banner" />
+        <LinearLayout
+            android:id="@+id/navBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#50ffaf00"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPrev"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:background="@color/colorLightAccent"
+                android:text="Prev"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:background="@color/colorLightAccent"
+                android:text="Next"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                />
+            <EditText
+                android:id="@+id/pagenoInput"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:hint="Go to Page No."
+                android:inputType="number" />
+            <Button
+                android:id="@+id/buttonGo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="Go"
+                android:background="@color/colorLightAccent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            >
+            <TextView
+                android:id="@+id/kandTextView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:padding="20dp"
+                android:text="ABC"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

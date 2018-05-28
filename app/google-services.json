@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1031511660639",
+    "firebase_url": "https://mere-raghunath-d0412.firebaseio.com",
+    "project_id": "mere-raghunath-d0412",
+    "storage_bucket": "mere-raghunath-d0412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031511660639:android:91d3b79d4fe120b0",
+        "android_client_info": {
+          "package_name": "sumanbhaiji.org.mereraghunath_"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031511660639-od5vvi7p9gv000a40jd9bqdn6qkka1le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sumanbhaiji.org.mereraghunath_",
+            "certificate_hash": "1b339be193212aa34ea175f3d0f724cd73dc8191"
+          }
+        },
+        {
+          "client_id": "1031511660639-t8irbuj1p5c4rhdb930673m9ctsnb5nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1o9SBM7F5WPOnT7E6tB0h6wHCV-ONPmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031511660639-t8irbuj1p5c4rhdb930673m9ctsnb5nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

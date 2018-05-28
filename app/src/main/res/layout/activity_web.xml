@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sumanbhaiji.org.mereraghunath_.WebActivity">
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="X"
+        android:textSize="20dp"
+        android:shadowDy="2"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        />
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ></WebView>
+    <ProgressBar
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/webProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="top"
+        android:background="@drawable/modal_bg"
+        />
+    <TextView
+        android:id="@+id/loadingTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

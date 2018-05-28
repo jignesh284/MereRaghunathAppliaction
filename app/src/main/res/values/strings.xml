@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mere Raghunath - श्री रामचरित मानस</string>
+    <string name="ramcharitmanas">|| रामचरित मानस ||</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4978878871611049/1425815249</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-4978878871611049/4054959964</string>
+    <string name="reward_video_ad_unit_id">ca-app-pub-4978878871611049/1696459744</string>
+    <string name="admob_app_id">ca-app-pub-4978878871611049~9903295436</string>
+
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id_test">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_app_id_test">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="youtubeURL">https://www.youtube.com/channel/UCwSFBsIzkyfArEaLWwe6gmQ</string>
+    <string name="facebookURL">https://www.facebook.com/Dr.SumanBhai/</string>
+    <string name="twitterURL">https://twitter.com/DrSumanBhaiji</string>
+    <string name="whatsappURL">https://chat.whatsapp.com/9FMNc4iwXRp7P1gU5FN7ak</string>
+
+    <string name="website">sumabhaiji.org</string>
+</resources>

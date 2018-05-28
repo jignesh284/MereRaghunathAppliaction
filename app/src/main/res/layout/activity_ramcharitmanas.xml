@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@mipmap/shriram"
+    tools:context="sumanbhaiji.org.mereraghunath_.MainActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/ramcharitmanas"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="@color/colorLightOrange"
+            ></TextView>
+        <Button
+            android:id="@+id/A"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="बाल कान्ड"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="@color/colorLightAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/B"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="अयोध्या काण्ड"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+
+            android:textStyle="bold"
+            android:background="@color/colorLightAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/C"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="अरण्य काण्ड"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="@color/colorLightAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/D"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="किष्किन्धा काण्ड"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+
+            android:textStyle="bold"
+            android:background="@color/colorLightAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/E"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="सुन्दर काण्ड"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+
+            android:textStyle="bold"
+            android:background="@color/colorLightAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/F"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="लंका काण्ड"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+
+            android:textStyle="bold"
+            android:background="@color/colorLightAccent"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/G"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="उत्तर कांड"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+
+            android:textStyle="bold"
+            android:background="@color/colorLightAccent"
+            android:layout_marginTop="10dp"
+            />
+    </android.support.v7.widget.LinearLayoutCompat>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
